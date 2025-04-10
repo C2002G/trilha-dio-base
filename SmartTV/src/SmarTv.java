@@ -13,7 +13,7 @@ public class SmarTv {
     }
     public void dimminuiCanal(){
         canal--;
-        System.out.println("diminuir canal: "+ canal);
+        System.out.println("diminuir canal: "+ canal);  
     }
 
 
