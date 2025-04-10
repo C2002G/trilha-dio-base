@@ -1,6 +1,8 @@
 public class AboutMe {
     public static void main(String[] args) {
-
+        /**
+         * parametros sao os "args" que sao passados como se fosse um input do usuario escrever no cmd
+         */
 
         String nome = args[0];
         String sobrenome = args[1];
