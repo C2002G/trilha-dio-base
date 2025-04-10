@@ -1,4 +1,5 @@
 /**
+ * https://felipe-aguiar.gitbook.io/dio-java/gitbook/sintaxe/documentacao#tags
 * <h1>Calculadora</h1>
 * A Calculadora realiza operações matemáticas entre números inteiros
 * <p>
@@ -9,7 +10,7 @@
 * @version 1.0
 * @since   01/01/2022
 */
-public class Calculadora {
+public class TagsCalculadora {
     /**
    * Este método é utilizado para somar dois números inteiros
    * @param numeroUm este é o primeiro parâmetro do método
@@ -20,3 +21,4 @@ public class Calculadora {
         return  numeroUm + numeroDois;
     }
 }
+
