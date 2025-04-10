@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Comentarios"},{"p":"<Unnamed>","l":"Doc"},{"p":"<Unnamed>","l":"PalavrasReservadas"},{"p":"<Unnamed>","l":"SmarTv"},{"p":"<Unnamed>","l":"TagsCalculadora"},{"p":"<Unnamed>","l":"Usuario"}];updateSearchResults();
