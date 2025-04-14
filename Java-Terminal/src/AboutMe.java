@@ -13,25 +13,25 @@ public class AboutMe {
                 // double altura = Double.valueOf(args[3]);
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        try {
+            System.out.println("Digite seu nome: ");
+            String nome = scanner.next();
 
-        System.out.println("Digite seu nome: ");
-        String nome = scanner.next();
+            System.out.println("Digite seu sobrenome: ");
+            String sobrenome = scanner.nextLine();
 
-        System.out.println("Digite seu sobrenome: ");
-        String sobrenome = scanner.nextLine();
+            System.out.println("Digite sua idade: ");
+            int idade = scanner.nextInt();
 
-        System.out.println("Dgiite  sua idade: ");
-        int idade = scanner.nextInt();
+            System.out.println("Digite sua altura: ");
+            double altura = scanner.nextDouble();
 
-        System.out.println("Digite sua altura: ");
-        double altura = scanner.nextDouble();
-
-
-        System.out.println("ola, meu nome é " + nome + " " + sobrenome);
-        System.out.println("tenho " + idade + " anos");
-        System.out.println("minha altura é " + altura + " metros");
+            System.out.println("ola, meu nome é " + nome + " " + sobrenome);
+            System.out.println("tenho " + idade + " anos");
+            System.out.println("minha altura é " + altura + " metros");
+        } finally {
+            scanner.close(); // Fecha o Scanner manualmente
+        }
     }
-    
-    
-}                      
+}
 
